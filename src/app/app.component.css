@@ -1,0 +1,23 @@
+@font-face {
+    font-family: Billabong;
+    src: url(assets/Billabong.ttf) format("opentype");
+  }
+
+.fora{
+    background-color: #fafafa;
+}
+
+.cima{
+    height: 50px;
+}
+
+
+.nav{
+    border-bottom: 1px solid rgba(0,0,0,.0975);
+}
+
+.logo{
+    font-family: Billabong;
+    font-size: 40px;
+    margin: 0 auto;
+}

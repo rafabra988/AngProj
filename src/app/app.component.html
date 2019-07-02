@@ -1,0 +1,17 @@
+<div class="nav">
+  <p class="logo">Instagrama</p>
+</div>
+<div class="fora cima">
+
+</div>
+<div class="row no-gutters">
+  <div class="col-sm-0 col-md-2 col-lg-3 fora ">
+    
+  </div>
+  <div class="col-sm-12 col-md-8 col-lg-6  feed">
+      <feed-app *ngFor="let f of feeds" [profilepic]="f.profilepic" [profile]="f.profile" [url]="f.url" [likes]="f.likes" [descricao]="f.descricao" [comment]="f.comment"></feed-app>
+  </div>
+  <div class="col-sm-0 col-md-2 col-lg-3  fora">
+
+  </div>
+</div>
