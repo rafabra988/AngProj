@@ -12,14 +12,23 @@
   </div>
   <div class="postco">
     <p class="like">{{ likes }}</p> <p class="like"> likes</p><br>
-    <p class="descric"> {{descricao}}</p><br>
-    <p class="coment negri">{{ commentprofile }}</p><p class="coment"> {{ commenttext }}</p><br>
-    <p class="coment1 negri">{{ commentprofile }}</p><p class="coment1"> {{ commenttext }}</p><br>
-    <p class="coment2 negri">{{ commentprofile }}</p><p class="coment2"> {{ commenttext }}</p><br>
-    <p class="coment3 negri">{{ commentprofile }}</p><p class="coment3"> {{ commenttext }}</p>
+    <p class="descric"> {{ descricao }}</p><br>
+    <div *ngFor="let c of comment">
+      <p class="coment negri">{{ c.commentprofile }}</p><p class="coment"> {{ c.commenttext }}</p><br>
+    </div>
+    <!--<section class="section">
+      <div class="RxpZH col-12">
+        <form [formGroup]="commentForm" (submit)="addComment()">
+          <input formControlName="comment" aria-label="Adicionar um comentário…" placeholder="Adicionar um comentário…" class="Ypffh" autocomplete="off" autocorrect="off">
+          <button class="_0mzm- sqdOP yWX7d" type="submit">Enviar</button>
+        </form>
+      </div>
+    </section>-->
   </div>
   <br>
 </div>
 <div class="cima">
 
 </div>
+
+

@@ -20,6 +20,7 @@
 .descric{
     margin-left: 1.5%;
     margin-top: 1.5%;
+    margin-bottom: 0px;
 }
 
 .foto{
@@ -38,15 +39,6 @@
 }
 
 .coment{
-    display: inline;
-}
-.coment1{
-    display: inline;
-}
-.coment2{
-    display: inline;
-}
-.coment3{
     display: inline;
 }
 
@@ -69,6 +61,7 @@
     -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
     box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
     border:1px solid rgba(0,0,0,.0975);
+    border-radius: 5px;
 }
 @media (max-width: 600px) { 
     .profname{
@@ -154,3 +147,95 @@
         margin-left: 100%;
     }
 }
+
+/*.section {
+    border-top: 1px solid #efefef;
+    color: #999;
+    font-size: 14px;
+    line-height: 18px;
+    min-height: 2px;
+    margin-left: none;
+    margin-top: 15px;
+}
+
+._JgwE {
+    margin-top: 4px;
+}
+
+.X7cDz, .Ypffh {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+}
+
+.Ypffh {
+    background: 0 0;
+    border: 0;
+    color: #262626;
+    font-size: inherit;
+    height: 18px;
+    max-height: 80px;
+    outline: 0;
+    padding: 0;
+    resize: none;
+}
+
+.yWX7d, .yWX7d:visited, a.yWX7d, a.yWX7d:visited {
+    border: 0;
+    color: #3897f0;
+    display: inline;
+    padding: 0;
+}
+
+.sqdOP {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: 0 0;
+    border: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    font-weight: 600;
+    padding: 5px 9px;
+    text-align: center;
+    text-transform: inherit;
+    text-overflow: ellipsis;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: auto;
+}
+
+button {
+    -webkit-appearance: button;
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: buttontext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    background-color: buttonface;
+    box-sizing: border-box;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonface;
+    border-image: initial;
+}
+*/
